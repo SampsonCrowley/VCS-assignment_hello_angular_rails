@@ -1,4 +1,4 @@
-window.basic = angular.module('basic',[
+var basic = angular.module('basic',[
   'ui.router', 'restangular'
 ]).constant('_', window._);
 
