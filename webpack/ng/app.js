@@ -5,7 +5,7 @@ var basic = angular.module('basic',[
 basic.config(
   ["$httpProvider",
   function($httpProvider) {
-    var token = $('meta[name=csrf-token]')
+    var token = angular.element('meta[name=csrf-token]')
       .attr('content');
     $httpProvider
       .defaults

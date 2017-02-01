@@ -1,0 +1,15 @@
+{
+  "name": "webpack-rails-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.4.2",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "restangular-umd": "^1.0.1",
+    "stats-webpack-plugin": "^0.4.3",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
